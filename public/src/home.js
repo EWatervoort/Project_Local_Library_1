@@ -39,7 +39,7 @@ function getMostPopularBooks(books) {
   return topFive;
 };
 
-function fullAuthorName (author) {
+function fullAuthorName (author) {                          /*Helper function*/
   const fullName = [author.name.first, author.name.last];
       let combined = fullName.join(" ");
       return combined;
